@@ -1,0 +1,47 @@
+.App {
+  flex: 1; 
+}
+
+.project {
+  text-align: center;
+  color: white;
+}
+
+body{
+  background-color: royalblue;
+}
+
+.booksOptions{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.bookCategories{
+  border: none;
+  font-size: 18px;
+  margin-top: 5%;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline;
+
+}
+
+.linkBackground{
+  background-color: blue;
+  padding:10px;
+  margin-top: 10px;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+

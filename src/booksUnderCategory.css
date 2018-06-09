@@ -1,0 +1,50 @@
+.books{
+  display: flex;
+  flex-direction: row;
+  float: left;
+}
+
+ul{
+ list-style-type: none; 
+}
+
+li{
+  font-size: 0.6em;
+  margin-top: 3px;
+}
+
+.author{
+  font-size: 0.5em;
+  width: 70px;
+}
+
+.booksImages{
+  height:90px;
+  width:70px;
+}
+
+.bookTitle{
+  width:70px;
+}
+
+.list{
+  flex:1;
+}
+
+.searchBar{
+  
+}
+input{
+  width:100%;
+  border: none;
+  padding: 5px;
+  border-bottom: 2px solid;
+  border-color: black;
+  margin:10px;
+  margin-right: 10px;
+}
+
+.bookLink{
+  text-decoration: none;
+  color: black;
+}
