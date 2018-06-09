@@ -60,7 +60,7 @@ class Home extends Component {
 
   onPressFiction(){
     this.bookCategory="Fiction";
-    console.log(this.bookCategory);
+    //console.log(this.bookCategory);
   }
 
   onPressDrama(){

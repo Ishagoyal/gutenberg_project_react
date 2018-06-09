@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './booksUnderCategory.css';
-//import { Link } from 'react-router-dom';
-
+import searchIcon from './ic_search.png';
 
 
 class Books extends Component {
@@ -48,7 +47,8 @@ class Books extends Component {
 
   renderList(){
     return(
-      <div>
+      <div >
+        <h4>{this.books.bookCategory}</h4>
         {this.state.books.map((book) => {
           var bookLink = "";
           if(book.formats.hasOwnProperty("text/html; charset=utf-8")){
@@ -128,7 +128,8 @@ class Books extends Component {
 
   renderSearchBar(){
     return(
-      <div className="searchBar">
+      <div className="searchBar" >
+        <img className="searchIcon" src={searchIcon} alt="search"/>
         <input 
           type="text"
           value={this.state.searchBook}

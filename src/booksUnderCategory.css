@@ -1,50 +1,78 @@
 .books{
-  display: flex;
+  display: inline-grid;
   flex-direction: row;
-  float: left;
 }
 
 ul{
  list-style-type: none; 
+ padding:0px;
+ margin:5px;
+}
+
+h4{
+  margin-left: 15px;
+  font-family: serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: darkblue;
+  font-size: 1em;
+}
+
+.listItems{
+  background-color: white;
 }
 
 li{
   font-size: 0.6em;
-  margin-top: 3px;
 }
 
 .author{
-  font-size: 0.5em;
+  font-size: 0.6em;
   width: 70px;
 }
 
 .booksImages{
-  height:90px;
-  width:70px;
+  height:150px;
+  width:110px;
+  display: inline;
+  border-radius: 3px;
 }
 
 .bookTitle{
   width:70px;
+  font-family: serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .list{
   flex:1;
+  background-color: white;
+}
+
+.searchIcon{
+  height: 30px;
+  width: 25px;
 }
 
 .searchBar{
-  
+  background-color: royalblue;
+  display: flex;  
+  border-bottom: 1px solid;
+  border-color: white;
+  padding:5px;
 }
+
 input{
-  width:100%;
-  border: none;
-  padding: 5px;
-  border-bottom: 2px solid;
-  border-color: black;
-  margin:10px;
-  margin-right: 10px;
+  width:90%;
+  border:none;
+  color: white;
+  font-size: 1em;
+  background-color: royalblue;
 }
 
 .bookLink{
   text-decoration: none;
   color: black;
 }
+

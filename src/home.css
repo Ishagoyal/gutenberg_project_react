@@ -9,6 +9,8 @@
 
 body{
   background-color: royalblue;
+  margin:0px;
+  padding:0px;
 }
 
 .booksOptions{
@@ -43,5 +45,6 @@ body{
 .App-intro {
   font-size: large;
 }
+
 
 
