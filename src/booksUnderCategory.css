@@ -5,17 +5,16 @@
 
 ul{
  list-style-type: none; 
- padding:0px;
- margin:5px;
+ margin:10px;
 }
 
 h4{
-  margin-left: 15px;
+  margin-left: 45px;
   font-family: serif;
   font-weight: bold;
   text-transform: uppercase;
   color: darkblue;
-  font-size: 1em;
+  font-size: 30px;
 }
 
 .listItems{
@@ -23,23 +22,24 @@ h4{
 }
 
 li{
-  font-size: 0.6em;
+  font-size: 1em;
 }
 
 .author{
-  font-size: 0.6em;
-  width: 70px;
+  font-size: 0.9em;
+  width: 150px;
+  font-family: serif;
 }
 
 .booksImages{
-  height:150px;
-  width:110px;
+  height:200px;
+  width:150px;
   display: inline;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .bookTitle{
-  width:70px;
+  width:150px;
   font-family: serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -51,28 +51,125 @@ li{
 }
 
 .searchIcon{
-  height: 30px;
-  width: 25px;
+  height: 40px;
+  width: 35px;
+  border-bottom: 1px solid #C0C0C0;
+  margin-bottom: 10px;
+}
+
+.closeIcon{
+  height: 40px;
+  width: 35px;
+  border-bottom: 1px solid #C0C0C0;
+  margin-bottom: 10px;
+}
+
+.leftArrow{
+  height: 45px;
+  width: 35px;
 }
 
 .searchBar{
   background-color: royalblue;
   display: flex;  
-  border-bottom: 1px solid;
-  border-color: white;
-  padding:5px;
+}
+
+.cancel{
+  background-color: royalblue;
+  border:none;
+  color:white;
+  font-size: 18px;
+  font-family: serif;
 }
 
 input{
-  width:90%;
+  width:88%;
   border:none;
+  border-bottom: 1px solid #C0C0C0;
+  margin-bottom: 10px;
+  font-family: serif;
   color: white;
-  font-size: 1em;
+  font-size: 22px;
   background-color: royalblue;
+  padding:5px;
 }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #C0C0C0;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #C0C0C0;
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #C0C0C0;
+  }
 
 .bookLink{
   text-decoration: none;
   color: black;
+}
+
+.loading{
+  text-align: center;
+  font-family: serif;
+}
+
+
+@media screen and (max-width: 480px) {
+  .bookTitle{
+    width:110px;
+  }
+  .author{
+    font-size: 0.6em;
+    width: 110px;
+  }
+  .booksImages{
+    height:150px;
+    width:110px;
+    border-radius: 3px;
+  }
+  li{
+    font-size: 0.6em;
+  }
+  .searchIcon{
+    height: 27px;
+    width: 22px;
+    margin-bottom: 5px;
+  }
+
+  .closeIcon{
+    height: 27px;
+    width: 22px;
+    margin-bottom: 5px; 
+  }
+
+  .leftArrow{
+    height: 30px;
+    width: 25px;
+  }
+  .searchBar{
+    padding:5px;
+  }
+
+  ul{
+   padding:0px;
+   margin:5px;
+  }
+
+  h4{
+    margin-left: 10px;
+    font-size: 1em;
+  }
+  input{
+    width:73%;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .cancel{
+    font-size: 12px;
+  }
+
 }
 

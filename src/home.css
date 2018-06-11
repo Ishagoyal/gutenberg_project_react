@@ -5,6 +5,8 @@
 .project {
   text-align: center;
   color: white;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 body{
@@ -14,36 +16,58 @@ body{
 }
 
 .booksOptions{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
-
-.bookCategories{
-  border: none;
-  font-size: 18px;
-  margin-top: 5%;
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-  display: inline;
-
-}
 
 .linkBackground{
   background-color: blue;
-  padding:10px;
-  margin-top: 10px;
+  color: white;
+  font-size: 22px;
+  margin-top:20px;
   margin-left:5%;
   margin-right:5%;
+  display: flex;
+  padding:10px;
+  position: relative;
+  text-decoration: none;
+  align-items: center;
 }
 
-.App-title {
-  font-size: 1.5em;
+.rightArrow{
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 10px;
+}
+
+h1{
+  font-size: 40px;
 }
 
 .App-intro {
   font-size: large;
+}
+
+@media screen and (max-width: 480px) {
+  .rightArrow{
+    height: 40px;
+    width: 40px;
+  }
+  
+  .booksOptions{
+    margin-bottom: 10px;
+  }
+
+  .linkBackground{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
 }
 
 
